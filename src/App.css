@@ -2,37 +2,35 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin-bottom: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background {
+  background-image: url("./images/reizouko.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.buttons {
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 45%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gohan {
+  width: 80vw;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
 }
